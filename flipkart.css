@@ -7,7 +7,7 @@
 
 .main-container{
     background-color: rgb(255, 255, 255);
-    height: 280vh;
+    height: 260vh;
     position: relative;
    max-width: 1200px;
     margin: auto;
@@ -324,19 +324,19 @@ width: 100%;
 
 
 .deals-title{
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 0;
 }
 .deals{
     margin-top: 30px;
     padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     padding: 20px;
-    background: #ffc400;
+    background: #ffc200;
     color: #ffffff;
 }
 .deal-card{
@@ -400,13 +400,13 @@ width: 100%;
 .deals1{
     margin-top: 30px;
     padding: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
     padding: 20px;
-    background: #ff0000;
+    background: #ff6161;
     color: #000000;
 }
 .deal-card1{
@@ -426,7 +426,7 @@ width: 100%;
     flex-grow: 2;
 }
 .card11, .card21, .card31{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     padding: 12px;
@@ -452,6 +452,76 @@ width: 100%;
     display: block;
 }
 .deal-info1 {
+    text-shadow: 1px 1px 5px rgba(40, 40, 40, 0.3);
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    
+    background: #ffffff;
+    margin-top: 12px;
+    text-align: center;
+}
+
+
+.deals-title2{
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.deals2{
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ff6161;
+    color: #000000;
+}
+.deal-card2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card12{
+    flex-grow: 2;
+}
+.card22{
+    flex-grow: 2;
+}
+.card32{
+    flex-grow: 2;
+}
+.card12, .card22, .card32{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+}
+.deal-img2{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.deal-img2 img{
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    display: block;
+}
+.deal-info2 {
     text-shadow: 1px 1px 5px rgba(40, 40, 40, 0.3);
     border-radius: 20px;
     font-family: Arial, sans-serif;
